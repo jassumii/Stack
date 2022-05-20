@@ -1,9 +1,20 @@
+//incomplete
 public class StackExpTestDay1
 {
 	public static double evalAns(String exp)
 	{
-		//Write your code here
-	}
+    for(int a = 0; a < exp.length(); a++){
+      ArraytList<Integer> all = new ArrayList<Integer>();
+      for(int i = 2; i < exp.length(); i++){
+        if(exp.indexOf(i).equals("*")){
+          int mult = exp.substring(i-2, i-1)*exp.substring(i-1, i);
+        }
+        if(exp.indexOf(i).equals("/")){
+          int div = exp.substring
+        }
+      }
+    }
+  }
 	
   public static void main(String[] args)
   {
