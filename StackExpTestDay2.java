@@ -1,5 +1,6 @@
 //How to push/pull
 //https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/ 
+//not done(obv)
 public class StackExpTestDay2
 {
  public static String infix2Postfix(String infix)
